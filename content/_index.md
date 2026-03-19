@@ -2,6 +2,7 @@
 title: "Home"
 ---
 
+
 # mazo
 
     mazo@cybersec:~$ whoami
