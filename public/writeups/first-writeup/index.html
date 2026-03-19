@@ -5,17 +5,36 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Sample Writeup | mazo | cybersec</title>
+<title>Challenge / Lab Name | mazo | cybersec</title>
 <meta name="keywords" content="">
-<meta name="description" content="Summary
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
-Enumeration
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-nmap -sC -sV 10.10.10.10
+<meta name="description" content="overview
+Short description of the challenge or lab.
+
+type: web / linux / network / misc
+source: CTF / lab / own setup
+goal: what needed to be achieved
+
+initial analysis
+[ observations ]
+What you noticed first.
+
+open ports / services
+files / endpoints
+anything unusual
+
+enumeration
+[ tools ]
+
+nmap
+gobuster
+
+[ commands ]
+nmap -sC -sV &lt;target&gt;
+gobuster dir -u http://&lt;target&gt; -w &lt;wordlist&gt;
 ">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/writeups/first-writeup/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2601c02e5eb4b2f27fda3b3712421c3303239afb319115f4922fc93d62cf57bb.css" integrity="sha256-JgHALl60svJ/2js3EkIcMwMjmvsxkRX0ki/JPWLPV7s=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -44,23 +63,23 @@ nmap -sC -sV 10.10.10.10
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/writeups/" title="Writeups">
-                    <span>Writeups</span>
+                <a href="http://localhost:1313/writeups/" title="writeups">
+                    <span>writeups</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/projects/" title="Projects">
-                    <span>Projects</span>
+                <a href="http://localhost:1313/projects/" title="projects">
+                    <span>projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/cv/" title="CV">
-                    <span>CV</span>
+                <a href="http://localhost:1313/cv/" title="cv">
+                    <span>cv</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/about/" title="About">
-                    <span>About</span>
+                <a href="http://localhost:1313/socials/" title="socials">
+                    <span>socials</span>
                 </a>
             </li>
         </ul>
@@ -72,17 +91,36 @@ nmap -sC -sV 10.10.10.10
   <header class="post-header">
     <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/writeups/">Writeups</a></div>
     <h1 class="post-title entry-hint-parent">
-      Sample Writeup
+      Challenge / Lab Name
     </h1>
-    <div class="post-meta"><span>1 min</span>
+    <div class="post-meta"><span title='2026-03-19 00:00:00 +0000 UTC'>March 19, 2026</span>&nbsp;·&nbsp;<span>1 min</span>
 
 </div>
   </header> 
-  <div class="post-content"><h2 id="summary">Summary<a hidden class="anchor" aria-hidden="true" href="#summary">#</a></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
-<h2 id="enumeration">Enumeration<a hidden class="anchor" aria-hidden="true" href="#enumeration">#</a></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nmap -sC -sV 10.10.10.10
+  <div class="post-content"><h2 id="overview">overview<a hidden class="anchor" aria-hidden="true" href="#overview">#</a></h2>
+<p>Short description of the challenge or lab.</p>
+<ul>
+<li><strong>type:</strong> web / linux / network / misc</li>
+<li><strong>source:</strong> CTF / lab / own setup</li>
+<li><strong>goal:</strong> what needed to be achieved</li>
+</ul>
+<h2 id="initial-analysis">initial analysis<a hidden class="anchor" aria-hidden="true" href="#initial-analysis">#</a></h2>
+<p><strong><code>[ observations ]</code></strong></p>
+<p>What you noticed first.</p>
+<ul>
+<li>open ports / services</li>
+<li>files / endpoints</li>
+<li>anything unusual</li>
+</ul>
+<h2 id="enumeration">enumeration<a hidden class="anchor" aria-hidden="true" href="#enumeration">#</a></h2>
+<p><strong><code>[ tools ]</code></strong></p>
+<ul>
+<li><code>nmap</code></li>
+<li><code>gobuster</code></li>
+</ul>
+<p><strong><code>[ commands ]</code></strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nmap -sC -sV &lt;target&gt;
+</span></span><span style="display:flex;"><span>gobuster dir -u http://&lt;target&gt; -w &lt;wordlist&gt;
 </span></span></code></pre></div>
 
   </div>

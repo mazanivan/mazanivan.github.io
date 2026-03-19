@@ -4,32 +4,28 @@ title: "Home"
 
 # mazo
 
-Cybersecurity portfolio focused on writeups, labs, and practical projects.
+    mazo@cybersec:~$ whoami
+    > cybersecurity enthusiast
+    > ctf player
+    > building labs and analyzing systems
 
-## What you’ll find here
+## activity.log
 
-- CTF writeups and walkthroughs
-- Security lab notes
-- Tools and small experiments
-- Personal projects
-- CV and background
+- analysed network traffic in lab environments
+- solved CTF challenges (web, linux, enumeration)
+- built monitoring setups using SIEM tools
+- experimenting with logs, detection, and investigation workflows
 
-## Current focus
+## focus
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat, velit at luctus facilisis, tortor orci laoreet neque, vitae luctus magna justo non odio. Vivamus at odio sed velit gravida ultricies. Suspendisse potenti.
+- soc analyst fundamentals
+- log analysis with kibana and elastic
+- monitoring and detection with wazuh
+- network analysis (wireshark, logs)
+- linux internals and system behavior
 
-## Featured sections
+## work
 
-### Writeups
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-### Projects
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-
-### Notes
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
-
-### CV
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident.
-
-> Work in progress. More content coming soon.
+- writeups -> /writeups/
+- projects -> /projects/
+- socials -> /socials/

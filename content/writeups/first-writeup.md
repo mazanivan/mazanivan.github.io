@@ -1,15 +1,39 @@
 ---
-title: "Sample Writeup"
+title: "Challenge / Lab Name"
+date: 2026-03-19
 draft: false
+hiddenInHomeList: true
 ---
 
-## Summary
+## overview
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+Short description of the challenge or lab.
 
-## Enumeration
+- **type:** web / linux / network / misc
+- **source:** CTF / lab / own setup
+- **goal:** what needed to be achieved
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+
+## initial analysis
+
+**`[ observations ]`**
+
+What you noticed first.
+
+- open ports / services
+- files / endpoints
+- anything unusual
+
+
+## enumeration
+
+**`[ tools ]`**
+
+- `nmap`
+- `gobuster`
+
+**`[ commands ]`**
 
 ```bash
-nmap -sC -sV 10.10.10.10
+nmap -sC -sV <target>
+gobuster dir -u http://<target> -w <wordlist>

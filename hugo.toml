@@ -10,23 +10,29 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
+  mainSections = ["writeups"]
+  disableHomePosts = true
+
+[params.label]
+  text = "mazo | cybersec"
+  icon = ""
 
 [[menu.main]]
-  name = "Writeups"
-  url = "/writeups/"
-  weight = 1
+name = "writeups"
+url = "/writeups/"
+weight = 1
 
 [[menu.main]]
-  name = "Projects"
-  url = "/projects/"
-  weight = 2
+name = "projects"
+url = "/projects/"
+weight = 2
 
 [[menu.main]]
-  name = "CV"
-  url = "/cv/"
-  weight = 3
+name = "cv"
+url = "/cv/"
+weight = 3
 
 [[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 4
+name = "socials"
+url = "/socials/"
+weight = 4
