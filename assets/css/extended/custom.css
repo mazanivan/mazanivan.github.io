@@ -89,12 +89,23 @@ hr {
     color: var(--content);
 }
 
+/* =========================
+   TITLES (clean + typing)
+========================= */
+
 /* homepage title */
 .post-content h1:first-of-type {
     margin-top: 0;
     margin-bottom: 14px;
     font-size: 3rem;
     line-height: 1.1;
+    display: inline-flex;
+    align-items: baseline;
+    list-style: none !important;
+}
+
+.post-content h1:first-of-type::marker {
+    content: "" !important;
 }
 
 /* page / post titles */
@@ -107,12 +118,12 @@ hr {
     align-items: baseline;
 }
 
-/* blinking cursor */
-.post-content h1:first-of-type::after,
-.post-header h1::after,
-.page-header h1::after,
-.entry-header h1::after {
-    content: "_";
+/* typing effect */
+.typing-text {
+    white-space: pre;
+}
+
+.typing-cursor {
     display: inline-block;
     margin-left: 4px;
     color: var(--accent);
@@ -125,16 +136,19 @@ hr {
     }
 }
 
-/* terminal block - LARGE */
+/* =========================
+   TERMINAL (balanced size)
+========================= */
+
 .post-content pre {
     background: var(--code-bg) !important;
     border: 1px solid #263040 !important;
-    padding: 22px 26px !important;
-    border-radius: 14px !important;
+    padding: 26px 32px !important;
+    border-radius: 16px !important;
     color: var(--accent) !important;
-    font-size: 1.08rem !important;
-    line-height: 1.7 !important;
-    margin: 18px 0 34px 0 !important;
+    font-size: 1.14rem !important;
+    line-height: 1.75 !important;
+    margin: 20px 0 38px 0 !important;
     box-shadow: 0 0 14px rgba(139, 255, 176, 0.05);
     overflow-x: auto;
     font-family: 'JetBrains Mono', monospace !important;
@@ -149,8 +163,6 @@ hr {
     color: var(--accent) !important;
     box-shadow: none !important;
     font-family: 'JetBrains Mono', monospace !important;
-    font-size: inherit !important;
-    line-height: inherit !important;
 }
 
 /* inline code */
@@ -162,7 +174,10 @@ hr {
     border: 1px solid rgba(139, 255, 176, 0.08);
 }
 
-/* section titles */
+/* =========================
+   SECTIONS
+========================= */
+
 .post-content h2 {
     margin-top: 34px;
     margin-bottom: 10px;

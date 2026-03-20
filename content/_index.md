@@ -5,28 +5,22 @@ title: "Home"
 
 # mazo
 
-    mazo@cybersec:~$ whoami
+  	mazo@cybersec:~$ whoami
     > cybersecurity enthusiast
     > ctf player
     > building labs and analyzing systems
 
-## activity.log
 
-- analysed network traffic in lab environments
-- solved CTF challenges (web, linux, enumeration)
-- built monitoring setups using SIEM tools
-- experimenting with logs, detection, and investigation workflows
+## /var/log/activity.log
 
-## focus
+- playing challenges on cybergame.sk
+- working through Hack The Box certification material
+- expanding and refining this portfolio
+- building hands-on security labs and documenting progress
 
-- soc analyst fundamentals
-- log analysis with kibana and elastic
-- monitoring and detection with wazuh
-- network analysis (wireshark, logs)
-- linux internals and system behavior
+## current_status
 
-## work
-
-- writeups -> /writeups/
-- projects -> /projects/
-- socials -> /socials/
+- improving detection and monitoring fundamentals
+- practicing network analysis and log investigation
+- learning Wazuh, Kibana and Elastic stack
+- strengthening Linux and system analysis skills
