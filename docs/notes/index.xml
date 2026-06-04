@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>notes.txt on mazo | cybersec</title>
+    <link>https://mazanivan.github.io/notes/</link>
+    <description>Recent content in notes.txt on mazo | cybersec</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mazanivan.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI vs CTF</title>
+      <link>https://mazanivan.github.io/notes/ai-vs-ctf/</link>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://mazanivan.github.io/notes/ai-vs-ctf/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;First off, I just want to say thanks to anyone who actually took the time to click on this and read it. It honestly means a lot.&lt;/p&gt;
+&lt;p&gt;One more thing before I start. These are just my personal opinions and thoughts. You don&amp;rsquo;t have to agree with me and that&amp;rsquo;s completely normal. Everyone is different and that&amp;rsquo;s how it should be.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;how-it-started-vs-how-it-feels-now&#34;&gt;How It Started vs. How It Feels Now&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve been playing CTFs for a few years now. I&amp;rsquo;ve done a lot of different competitions and I always enjoyed them. But this year something changed. I started asking myself if it&amp;rsquo;s still worth it. Like, does it still give me the same feeling of joy and fulfillment that it used to?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

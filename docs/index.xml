@@ -6,8 +6,20 @@
     <description>Recent content in Home on mazo | cybersec</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mazanivan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI vs CTF</title>
+      <link>https://mazanivan.github.io/notes/ai-vs-ctf/</link>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://mazanivan.github.io/notes/ai-vs-ctf/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;First off, I just want to say thanks to anyone who actually took the time to click on this and read it. It honestly means a lot.&lt;/p&gt;
+&lt;p&gt;One more thing before I start. These are just my personal opinions and thoughts. You don&amp;rsquo;t have to agree with me and that&amp;rsquo;s completely normal. Everyone is different and that&amp;rsquo;s how it should be.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;how-it-started-vs-how-it-feels-now&#34;&gt;How It Started vs. How It Feels Now&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve been playing CTFs for a few years now. I&amp;rsquo;ve done a lot of different competitions and I always enjoyed them. But this year something changed. I started asking myself if it&amp;rsquo;s still worth it. Like, does it still give me the same feeling of joy and fulfillment that it used to?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Challenge / Lab Name</title>
       <link>https://mazanivan.github.io/writeups/first-writeup/</link>
@@ -35,27 +47,18 @@
 &lt;li&gt;&lt;code&gt;gobuster&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;code&gt;[ commands ]&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nmap -sC -sV &amp;lt;target&amp;gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nmap -sC -sV &amp;lt;target&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gobuster dir -u http://&amp;lt;target&amp;gt; -w &amp;lt;wordlist&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
-      <title>cv</title>
-      <link>https://mazanivan.github.io/cv/</link>
+      <title>achievements</title>
+      <link>https://mazanivan.github.io/achievements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://mazanivan.github.io/cv/</guid>
-      <description>&lt;p&gt;My CV is available here and will be updated over time.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.&lt;/p&gt;
-&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Linux&lt;/li&gt;
-&lt;li&gt;Networking&lt;/li&gt;
-&lt;li&gt;Python&lt;/li&gt;
-&lt;li&gt;CTF practice&lt;/li&gt;
-&lt;li&gt;Security labs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;experience-and-projects&#34;&gt;Experience and projects&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;</description>
+      <guid>https://mazanivan.github.io/achievements/</guid>
+      <description>&lt;h2 id=&#34;cybergame-slovakia-2026&#34;&gt;CyberGame Slovakia 2026&lt;/h2&gt;
+&lt;p&gt;Player certificate from CyberGame Slovakia 2026. Placed 17th with 75 / 83 solved tasks and 22165 / 26046 points.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;CyberGame Slovakia 2026 certificate&#34; loading=&#34;lazy&#34; src=&#34;https://mazanivan.github.io/cv/cybergame-slovakia-2026-certificate.png&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
