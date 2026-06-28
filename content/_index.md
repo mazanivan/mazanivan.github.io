@@ -7,72 +7,20 @@ description: "SOC analyst notes, CTF writeups and lab projects from mazo."
 # mazo
 
 {{< rawhtml >}}
-<section class="siem-hero" aria-label="SOC dashboard preview">
-    <div class="siem-dashboard" role="status">
-        <div class="siem-dashboard-top">
-            <div>
-                <span class="alert-dot" aria-hidden="true"></span>
-                <strong>SOC dashboard</strong>
-                <em>live lab</em>
-            </div>
-            <span class="dashboard-time">last 15m</span>
-        </div>
-        <div class="siem-metrics">
-            <span><small>notables</small><strong>7</strong></span>
-            <span><small>EPS</small><strong>42</strong></span>
-            <span><small>sources</small><strong>18</strong></span>
-            <span><small>failed auth</small><strong>14</strong></span>
-        </div>
-        <div class="siem-dashboard-grid">
-            <div class="alert-queue">
-                <div class="panel-head">
-                    <span>alert queue</span>
-                    <em>triage</em>
-                </div>
-                <div class="alert-row alert-row-active">
-                    <span class="severity severity-medium">med</span>
-                    <strong>sudo command executed</strong>
-                    <small>linux-auth | user: mazo</small>
-                </div>
-                <div class="alert-row">
-                    <span class="severity severity-high">high</span>
-                    <strong>PowerShell encoded command</strong>
-                    <small>sysmon event 1 | endpoint-03</small>
-                </div>
-                <div class="alert-row">
-                    <span class="severity severity-medium">med</span>
-                    <strong>multiple failed logons</strong>
-                    <small>windows 4625 | src: vpn-gw</small>
-                </div>
-                <div class="alert-row">
-                    <span class="severity severity-low">low</span>
-                    <strong>new service installed</strong>
-                    <small>windows 7045 | host-12</small>
-                </div>
-            </div>
-            <div class="event-detail">
-                <div class="panel-head">
-                    <span>selected event</span>
-                    <em>process execution</em>
-                </div>
-                <div class="event-command">sudo whoami</div>
-                <div class="event-fields">
-                    <span><small>event.action</small>executed</span>
-                    <span><small>process.name</small>sudo</span>
-                    <span><small>parent.name</small>zsh</span>
-                    <span><small>user.name</small>mazo</span>
-                </div>
-                <div class="event-output">
-                    <span>decoded output</span>
-                    <p>3rd-year Cybersecurity student at Faculty of Informatics, Masaryk University. Interested in threat hunting, SOC analysis and forensic analysis.</p>
-                </div>
-            </div>
+<section class="operator-brief" aria-label="homepage intro">
+    <div class="brief-copy">
+        <p class="brief-kicker">cybersec student / blue team notes</p>
+        <p>3rd-year Cybersecurity student at Faculty of Informatics, Masaryk University. I write down CTF solutions, SOC labs, forensic notes and projects that are useful enough to revisit later.</p>
+        <div class="brief-actions" aria-label="primary sections">
+            <a href="/writeups/">read writeups</a>
+            <a href="/notes/">open notes</a>
+            <a href="/projects/">see projects</a>
         </div>
     </div>
 </section>
 {{< /rawhtml >}}
 
-## current signal
+## recent activity
 
 {{< rawhtml >}}
 <div class="focus-grid">
